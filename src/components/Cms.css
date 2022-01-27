@@ -1,0 +1,76 @@
+.cms{
+    padding: 30px 0;
+    align-items: center;
+}
+.cms:before {
+    content: '';
+    background: url(https://runo.in/icons/circle-group-cms-1.svg) no-repeat;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 150px;
+    background-size: contain;
+    transform: translate(-45px, 881px);
+}
+.cms:after {
+    content: '';
+    background: url(https://runo.in/icons/circle-group-cms-2.svg) no-repeat;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 200px;
+    background-size: contain;
+    transform: translate(0px, 890px);
+}
+.cms__container{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+.cms__left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cms__left > img {
+    width: 400px;
+    margin: 3em 0;
+}
+.cms__right{
+    width: 50%;
+}
+.buttons >a {
+    text-decoration: none;
+}
+.know_more_button{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 30px #e3e3e3;
+    border-radius: 30px;
+    display: inline-block;
+    color: #1F1F39;
+    padding: 8px 22px;
+    transition: .4s all ease-in-out;
+    outline: none;
+    border: none;
+    min-width: 150px;
+    text-align: center;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.button_dark{
+    background: #1F1F39 0% 0% no-repeat padding-box;
+    box-shadow: -2px -2px 6px #575f6b80;
+    border-radius: 30px;
+    display: inline-block;
+    color: #EEEFF3;
+    padding: 8px 22px;
+    transition: .4s all ease-in-out;
+    outline: none;
+    border: none;
+}

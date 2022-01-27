@@ -1,0 +1,56 @@
+.form{
+    
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.form:after {
+    content: '';
+    background: url(https://runo.in/icons/superlead-svg-2.svg) no-repeat;
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    z-index: 1;
+    height: 600px;
+    background-size: contain;
+    transform: translate(320px, 2540px);
+}
+.superlead__box{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background: #FDFBF9;
+    box-shadow: 0px -7px 10px 0px rgb(238 238 238 / 50%);
+    border-radius: 10px;
+    height: 456px;
+    z-index: 1;
+    transform: translate(0, -90px);
+}
+.superlead__left{
+    width: 40%;
+}
+.superlead__form {
+    padding: 3em 2em;
+    font-style: normal;
+    font-weight: 400;
+}
+.form__group {
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: 0 3px 10px #eeeeee;
+    font-size: 14px;
+}
+.form__submit{
+    margin-bottom: 20px;
+}
+.superlead__right{
+    width: 60%;
+}
+.superlead__mobile >img {
+    width: 400px;
+    transform: translate(0px, -100px);
+}

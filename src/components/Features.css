@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+.features{
+    background-color: #fafafa;
+}
+.features:before {
+    content: '';
+    background: url(https://runo.in/icons/best-group-1.svg) no-repeat;
+    width: 490px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 490px;
+    background-size: contain;
+    transform: translate(-200px, 1380px);
+}
+.features:after {
+    content: '';
+    background: url(https://runo.in/icons/best-group-2.svg) no-repeat;
+    width: 115px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 480px;
+    background-size: contain;
+    transform: translate(0px, 1390px);
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.grid__cards {
+    position: relative;
+    z-index: 2;
+    padding: 5em 5em;
+}
+.grid__card_rows{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+.grid__box {
+    padding: 25px 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 25px #dde2e7;
+    border-radius: 20px;
+    text-align: center;
+    width: 25%;
+}
+.grid__item > img {
+    margin: 0 0 10px;
+    width: 50px;
+    height: 50px;
+}

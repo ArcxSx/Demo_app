@@ -1,0 +1,60 @@
+.topbg {
+    display: flex;
+    padding: 30px 100px;
+}
+.topbg:before {
+    content: '';
+    background: url(https://runo.in/icons/circle-1.svg) no-repeat;
+    width: 380px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 380px;
+    background-size: contain;
+    transform: translate(-270px, -40px) rotate(360deg);
+}
+.topbg:after {
+    content: '';
+    background: url(https://runo.in/icons/circle-group-2.svg) no-repeat;
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    height: 500px;
+    background-size: contain;
+    transform: translate(270px, 25px);
+}
+.top__left{
+    text-align: left;
+    padding: 7em 0;
+    flex-grow: 5;
+}
+.top__left > h1 > span {
+    color: green;
+}
+.top__right{
+    flex-grow: 5;
+}
+.top__right > img{
+    object-fit: contain;
+    height: 500px;
+    margin-right: 10px;
+}
+.buttons{
+    display: flex;
+}
+.button_white{
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: -2px -2px 6px #575f6b80;
+    border-radius: 30px;
+    display: inline-block;
+    color: #EEEFF3;
+    padding: 8px 22px;
+    transition: .4s all ease-in-out;
+    outline: none;
+    border: none;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}

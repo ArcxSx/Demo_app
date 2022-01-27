@@ -1,0 +1,28 @@
+.trust:before {
+    content: '';
+    background: url(https://runo.in/icons/circle-group-3.svg) no-repeat;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 250px;
+    background-size: contain;
+    transform: translate(-95px, 620px);
+}
+.carousel__contain > img {
+    width: 150px;
+    height: 75px;
+}
+.carousel__contain{
+    height: 200px;
+}
+.carousel .slide img {
+    width:auto; 
+    vertical-align: top;
+    border: 0;
+}
+
+.carousel img {
+    width:auto; 
+}

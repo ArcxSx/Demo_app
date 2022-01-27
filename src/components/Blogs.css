@@ -1,0 +1,65 @@
+
+.blogs{
+    padding: 80px 160px;
+}
+.blog__container{
+    width: 30%;
+}
+.blog__card{
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(38 50 56 / 5%);
+    background: #fff;
+    position: relative;
+    transition: all .3s ease;
+    width: 100%;
+}
+.blog__card > a{
+    color: #ff6340;
+    text-decoration: none;
+    transition: all .3s;
+    background-color: transparent;
+}
+.card__media{
+    display: block;
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+}
+.card__media > img {
+    display: block;
+    width: 100%;
+    transition: all .3s ease;
+    height: auto;
+    max-width: 100%;
+    border: 0;
+}
+.card__text{
+    padding: 1.5rem 2rem;
+    text-align: left;
+}
+.blog__category > a {
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+}
+.cat__link{
+    padding: 0;
+    float: left;
+    width: auto;
+}
+.blog__title{
+    font-size: 1.4em;
+    margin: 0 0 8px;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+.blog__content{
+    font-size: 1em;
+    word-wrap: break-word;
+}
+.blog__author_date{
+    font-size: 0.75rem;
+    font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

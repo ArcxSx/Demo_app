@@ -1,25 +1,76 @@
-import logo from './logo.svg';
 import './App.css';
+import Cms from './components/Cms';
+import Features from './components/Features';
+import Header from './components/Header';
+import Products from './components/Products';
+import Testimonial from './components/Testimonial';
+import Topbg from './components/Topbg';
+import Trust from './components/Trust';
+import Form from './components/Form';
+import Footer from './components/Footer';
+import Blogs from './components/Blogs';
+import React from "react";
+import {
+  Routes,
+  Route
+} from "react-router-dom";
+import Contactus from './components/Contactus';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="blog" element={<Blog />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
 
-export default App;
+function Home() {
+  return (
+    <div className="App">
+      {/* header */}
+      <Header />
+
+      {/* app body */}
+      <div className="app__body">
+        <Topbg />
+        <Trust />
+        <Cms/>
+        <Features/>
+        <Testimonial/>
+        <Products/>
+        <Form/>
+        
+      </div>
+      {/* footer */}
+      <Footer/>
+    </div>
+  );
+}
+
+function Blog() {
+  return (
+    <div className="App">
+    {/* header */}
+    <Header />
+    <Blogs/>
+    </div>
+    );
+}
+
+function Contact() {
+  return (
+    <div className="App">
+    {/* header */}
+    <Header />
+    <Contactus />
+    <div className="app_contact">
+      <Footer/>
+    </div>
+    </div>
+    );
+}
+

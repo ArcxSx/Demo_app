@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+.products:before {
+    content: '';
+    background: url(https://runo.in/icons/works-group-1.svg) no-repeat;
+    width: 18px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    height: 18px;
+    background-size: contain;
+    transform: translate(-200px, 2030px);
+}
+.products{
+    background-color: #fafafa;
+}
+.products_box{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 0 200px;
+}
+.product{
+    display: flex;
+    align-items: center;
+    
+    justify-content:space-evenly;
+}
+.product__card{
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #efefec;
+    margin: 5em 2em;
+    text-align: center;
+    padding: 3em 0;
+}
+.product__card > h4 {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+}
+.icon{
+    margin: 0 70px 20px;
+}
+.icon > img{
+    vertical-align: middle;
+    width: 160px;
+    height: 160px;
+}
+
+.superlead__row{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.superlead__img{
+    width: 40%;
+}
+.superlead__img > img {
+    width: 357px;
+    height: 450px;
+}
+.superlead__heading {
+    width: 60%;
+    text-align: left;
+}
